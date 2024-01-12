@@ -41,11 +41,11 @@
 </head>
 
 <body>
-	<header>
+	<header role="banner">
 		<div class="top-header">
-			<h3 class="name">Nina Carducci</h3>
+			<h3 class="name">Nina Carducci Photographe</h3>
 			<div class="nav">   
-				<nav>
+				<nav role="navigation">
 					<ul>
 						<li><a href="#about">À propos</a></li>
 						<li><a href="#gallery">Galerie</a></li>
@@ -58,8 +58,8 @@
 		</div>
 	</header>
 	
-	<main>
-		<section>
+	<main role="main">
+		<section role="region" aria-label="carrousel photos">
 			<div id="header">
 
 				<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -95,7 +95,7 @@
 			</div>
 		</section>
 
-		<section>
+		<section role="region" aria-label="A propos de Nina Carducci">
 			<div id="about">
 				<div class="picture left">
 					<img src="./assets/images/nina-carducci-portrait.png" alt="portrait de la photographe Nina Carducci">
@@ -110,7 +110,7 @@
 			</div>
 		</section>
 
-		<section>
+		<section role="region" aria-label="Portfolio">
 			<div id="gallery">
 				<h3 class="title">Portfolio</h3>
 				<div class="container py-3">
@@ -138,7 +138,7 @@
 			</div>
 		</section>
 
-		<section>
+		<section role="region" aria-label="Tarifs photos">
 			<div id="services">
 				<h3 class="title">Mes services</h3>
 				<div class="container">
@@ -176,7 +176,7 @@
 			</div>
 		</section>
 
-		<section>
+		<section role="region" aria-label="contact">
 			<div class="quote">
 				<figure>
 					<blockquote>
@@ -190,7 +190,7 @@
 					<div class="form-container">
 						<h3>Une question ? Une demande de devis ?</h3>
 						<p> N’hésitez pas à m’écrire ! Je vous répondrai en moins de 24 heures</p>
-						<form action="" method="post">
+						<form role="form" method="post">
 							<label>Nom</label>
 							<input type="text" name="nom" id="nom">
 							<label>Email</label>
@@ -208,7 +208,7 @@
 		</section>
 	</main>
 
-	<footer>
+	<footer role="contentinfo">
 		<!-- Rappel navigation, logo, infos légales -->
 	</footer>
 </body>
