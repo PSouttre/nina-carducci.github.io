@@ -66,6 +66,8 @@ body {
 	flex: 1;
 	margin: 0 20px;
 	z-index: 0;
+	width: 360px;
+	height: 360px;
 }
 
 .picture img {
@@ -111,6 +113,8 @@ body {
 	position: relative;
 	margin-bottom: 0 !important;
 	padding: 0;
+	width: 33.33333333%;
+	height: 33.33333333%;
 }
 .item-column::after{
 	content: "";
