@@ -1,3 +1,5 @@
+Débuguer et optimiser un site de photographe
+
 Objectifs :
   - Optimiser les performances d’un site web
   - Débugger un site web grâce aux Chrome DevTools
